@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "sound_detector",
+  "version": "0.1.0",
+  "name": "Sound Detector",
+  "description": "A directional history of positional sounds received by your client.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.miles.sounddetector.SoundDetector"] },
+  "depends": { "fabricloader": ">=0.18.4", "minecraft": "1.21.11", "java": ">=21", "fabric-api": "*" }
+}
